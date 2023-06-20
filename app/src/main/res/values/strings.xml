@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MAPS COMPX202</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="api_key">AIzaSyA5pUxD_2Xi1s-bga4itPVaq-VblEHmxg8</string>
+    <string name="cam_api_key">G7nva6bysKOxdZfgYI8caTQ5xoAPhRbC</string>
+    <string name="weather_api_key">fcc6e74e69cc189958cf9bc68906255a</string>
+</resources>

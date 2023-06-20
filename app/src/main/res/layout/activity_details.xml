@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a placeholder for title"
+        android:layout_margin="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/RegionAndCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a place holder for the city and region"
+        android:layout_margin="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/CamImage"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="0.5"
+        android:scaleType="fitCenter"
+        ></ImageView>
+</LinearLayout>
